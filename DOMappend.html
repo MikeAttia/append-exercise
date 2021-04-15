@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Append</title>
+</head>
+<body>
+    <div id="div">
+
+    </div> 
+
+    
+    <script>
+        var text="";
+        var myDiv=document.getElementById("div");
+        var para= document.createElement("p");
+        var node=document.createTextNode("DOM Append.");
+     
+        para.append(node);
+        myDiv.append(para);
+        //var headn=document.getElementsById("myDiv");
+        var parah=document.createElement("h1");
+        var headName=document.createTextNode("DOM practice");
+        parah.append(headName);
+        myDiv.append(parah);
+
+
+        
+    </script>
+    
+</body>
+</html>
